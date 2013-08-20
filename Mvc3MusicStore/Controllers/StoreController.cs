@@ -10,7 +10,7 @@ namespace Mvc3MusicStore.Controllers
 {
     public class StoreController : Controller
     {
-        MusicStoreEntities storeDB = new MusicStoreEntities();
+        private MusicStoreEntities storeDB = new MusicStoreEntities();
 
         //
         // GET: /Store/
